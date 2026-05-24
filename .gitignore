@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+*local*.tfvars
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+*.userprefs
+*.docstates
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

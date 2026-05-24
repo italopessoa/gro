@@ -1,0 +1,5 @@
+# Example terraform.tfvars file
+# Rename this file to terraform.tfvars or *.auto.tfvars in your environment folder to set values.
+
+# AWS Region to deploy resources
+aws_region = "us-east-1"
