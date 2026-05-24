@@ -3,3 +3,8 @@
 locals {
   environment_name = "staging"
 }
+
+module "dynamodb" {
+  source      = "../../modules/dynamodb"
+  environment = var.environment
+}
