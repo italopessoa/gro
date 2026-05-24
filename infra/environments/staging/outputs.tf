@@ -17,3 +17,14 @@ output "cognito_client_id" {
   value       = module.cognito.client_id
   description = "The ID of the Cognito User Pool Client"
 }
+
+output "api_gateway_rest_api_id" {
+  value       = module.api_gateway.rest_api_id
+  description = "The ID of the API Gateway"
+}
+
+output "api_gateway_invoke_url" {
+  value       = module.api_gateway.invoke_url
+  description = "The URL to invoke the REST API Gateway stage"
+}
+
